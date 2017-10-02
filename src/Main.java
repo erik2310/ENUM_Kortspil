@@ -16,8 +16,8 @@ public class Main {
 
         // Variabler af typen int
         int card1Val, card2Val, result;
-        card1Val = 5;
-        card2Val = 10;
+        card1Val = card1.ordinal() + 1;
+        card2Val = card2.ordinal() + 1;
         result = card1Val + card2Val;
 
         // Printer 2 linjer med hånden og summen af de 2 kort
